@@ -24,10 +24,10 @@
             <div class="right-header">
                 <h1 class="name">
                     Alexandre Gaultier
-                    <span>Développeur FullStack</span>
+                    <span>Développeur Full Stack</span>
                 </h1>
                 <p>
-                    Jeune diplômé BAC + 5 et expérimenté de 3 années d'alternance, je suis maintenant développeur FullStack maîtrisant le framework VueJs ainsi que NodeJs et son framework Hapi. 
+                    Jeune diplômé BAC + 5 et expérimenté de 3 années d'alternance, je suis maintenant développeur FullStack maîtrisant le framework <span class="highlight">VueJs</span> ainsi que <span class="highlight">NodeJs</span> et son framework <span class="highlight">Hapi</span>. 
                     Pendant ma dernière expérience, j'ai beaucoup appris et travaillé sur une architecture microservice en utilisant divers outils pour mener à bien mes missions. <br>
                     Dernièrement, j'ai également donné cours dans mon école en tant qu'intervenant devant un public de lycéens et de 3ème année.
                 </p>
@@ -49,7 +49,7 @@
                 <div class="left-about">
                     <h4>Me connaître</h4>
                     <p>
-                        J'ai principalement travaillé sur des missions Front avec du VueJs et des missions Back avec Hapi (NodeJs). C'est quelque chose que j'ai beaucoup apprécié
+                        J'ai principalement travaillé sur des missions Front avec du <span class="highlight">VueJs</span> et des missions Back avec <span class="highlight">Hapi (NodeJs)</span>. C'est quelque chose que j'ai beaucoup apprécié
                         pour la diversité des missions et pour la couverture des connaissances/compétences. De plus, j'aimerais également me former sur de nouvelles compétences DevOps
                         en apprenant à utiliser Docker et Kubernetes afin d'avoir un profil polyvalant. <br>
 
@@ -84,66 +84,7 @@
                     </div>
                 </div>
             </div>
-            <div class="about-stats">
-                <h4 class="stat-title">My Skills</h4>
-                <div class="progress-bars">
-                    <!-- <div class="progress-bar">
-                        <p class="prog-title">html5</p>
-                        <div class="progress-con">
-                            <p class="prog-text">70%</p>
-                            <div class="progress">
-                                <span class="html"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">css3</p>
-                        <div class="progress-con">
-                            <p class="prog-text">65%</p>
-                            <div class="progress">
-                                <span class="css"></span>
-                            </div>
-                        </div>
-                    </div> -->
-                    <div class="progress-bar">
-                        <p class="prog-title">VueJs</p>
-                        <div class="progress-con">
-                            <p class="prog-text">85%</p>
-                            <div class="progress">
-                                <span class="vue"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">NodeJS</p>
-                        <div class="progress-con">
-                            <p class="prog-text">70%</p>
-                            <div class="progress">
-                                <span class="node"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">NuxtJs</p>
-                        <div class="progress-con">
-                            <p class="prog-text">40%</p>
-                            <div class="progress">
-                                <span class="nuxt"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Architecture microservices</p>
-                        <div class="progress-con">
-                            <p class="prog-text">75%</p>
-                            <div class="progress">
-                                <span class="js"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <h4 class="stat-title">My Timeline</h4>
+            <h4 class="stat-title" id="miaou">Mon parcours</h4>
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="tl-icon">
@@ -207,6 +148,186 @@
                     </p>
                 </div>
             </div>
+            <div class="about-stats">
+                <h4 class="stat-title">Mes compétenes</h4>
+                <h4 class="stat-subtitle" style="padding-top: 0;"><span style="color: var(--color-secondary)">Front</span></h4>
+                <div class="progress-bars">
+                    <div class="progress-bar skills" style="flex-direction: column;">
+                            <div style="width: 100%; display: flex; flex-direction: row;">
+                                <div class="image">
+                                    <img src="img/vuejs.png" alt="" width="50px" style="margin-right:1rem;">
+                                </div>
+                                <p class="prog-title">VueJs</p>
+                            </div>
+                            <p class="small-text" style="color: var(--color-grey-2); text-align: justify;">
+                                Création d'outils à destination de l'équipe de développement et du support pour augmenter leur efficacité et simplifier/supprimer les tâches redondantes. Créations de vues pour le client afin de répondre à son besoin.
+                            </p>
+                    </div>
+                    <div class="progress-bar skills" style="flex-direction: column;">
+                        <div style="width: 100%; display: flex; flex-direction: row;">
+                            <div class="image">
+                                <img src="img/vuetify.png" alt="" width="50px" height="50px" style="margin-right:1rem;">
+                            </div>
+                            <p class="prog-title">Vuetify</p>
+                        </div>
+                        <p class="small-text" style="color: var(--color-grey-2); text-align: justify;">
+                            Intégration de components et utilisation des balises du framework.
+                        </p>
+                    </div>
+                    <div class="progress-bar skills" style="flex-direction: column;">
+                        <div style="width: 100%; display: flex; flex-direction: row;">
+                            <div class="image">
+                                <img src="img/nuxt.png" alt="" width="50px" style="margin-right:1rem;">
+                            </div>
+                            <p class="prog-title">NuxtJs</p>
+                        </div>
+                        <p class="small-text" style="color: var(--color-grey-2); text-align: justify;">
+                            Essai du framework par une formation en autodidacte. 
+                        </p>
+                    </div>
+                    <div class="progress-bar skills" style="flex-direction: column;">
+                        <div style="width: 100%; display: flex; flex-direction: row;">
+                            <div class="image">
+                                <img src="img/tailwind.svg.png" alt="" width="50px" style="margin-right:1rem;">
+                            </div>
+                            <p class="prog-title">Tailwind</p>
+                        </div>
+                        <p class="small-text" style="color: var(--color-grey-2); text-align: justify;">
+                            En cours de formation en autodidacte.
+                        </p>
+                    </div>
+                </div>
+                <h4 class="stat-subtitle"><span style="color: var(--color-secondary)">Back</span></h4>
+                <div class="progress-bars">
+                    <div class="progress-bar skills" style="flex-direction: column;">
+                        <div style="width: 100%; display: flex; flex-direction: row;">
+                            <div class="image">
+                                <img src="img/hapi.png" alt="" width="50px" style="margin-right:1rem;">
+                            </div>
+                            <p class="prog-title">NodeJS (Hapi)</p>
+                        </div>
+                        <p class="small-text" style="color: var(--color-grey-2); text-align: justify;">
+                            Création d'API, de nouvelles routes, requêtage en base de données et formatage des données renvoyées.
+                        </p>
+                    </div>
+                    <div class="progress-bar skills" style="flex-direction: column;">
+                        <div style="width: 100%; display: flex; flex-direction: row;">
+                            <div class="image">
+                                <img src="img/microservices.png" alt="" width="50px" style="margin-right: 1rem; border-radius: 1rem;">
+                            </div>
+                            <p class="prog-title">Architecture microservices</p>
+                        </div>
+                        <p class="small-text" style="color: var(--color-grey-2); text-align: justify;">
+                            Utilisation d'une multitude de microservices.
+                        </p>
+                    </div>
+                    <div class="progress-bar skills" style="flex-direction: column;">
+                        <div style="width: 100%; display: flex; flex-direction: row;">
+                            <div class="image">
+                                <img src="img/socketio.png" alt="" width="50px" style="margin-right:1rem;">
+                            </div>
+                            <p class="prog-title">Web Socket (Socket.io)</p>
+                        </div>
+                        <p class="small-text" style="color: var(--color-grey-2); text-align: justify;">
+                            Utilisation de Socket.io dans le contexte d'un chat support - client.
+                        </p>
+                    </div>
+                    <div class="progress-bar skills" style="flex-direction: column;">
+                        <div style="width: 100%; display: flex; flex-direction: row;">
+                            <div class="image">
+                                <img src="img/nestjs.png" alt="" width="50px" style="margin-right:1rem;">
+                            </div>
+                            <p class="prog-title">NestJs</p>
+                        </div>
+                        <p class="small-text" style="color: var(--color-grey-2); text-align: justify;">
+                            En cours de formation en autodidacte.
+                        </p>
+                    </div>
+                </div>
+                <h4 class="stat-subtitle"><span style="color: var(--color-secondary)">Base de données</span></h4>
+                <div class="progress-bars">
+                    <div class="progress-bar skills">
+                        <div style="width: 100%; display: flex; flex-direction: row;">
+                            <div class="image">
+                                <img src="img/sqlite.png" alt="" width="50px" style="margin-right:1rem;">
+                            </div>
+                            <p class="prog-title">SQLite</p>
+                        </div>
+                        <p class="small-text" style="color: var(--color-grey-2); text-align: justify;">
+                            Création de requêtes SQL et ajout de nouvelles tables et colonnes.
+                        </p>
+                    </div>
+                    <div class="progress-bar skills">
+                        <div style="width: 100%; display: flex; flex-direction: row;">
+                            <div class="image">
+                                <img src="img/posgresql.png" alt="" width="50px" style="margin-right:1rem;">
+                            </div>
+                            <p class="prog-title">PostgreSQL</p>
+                        </div>
+                        <p class="small-text" style="color: var(--color-grey-2); text-align: justify;">
+                            Création de requêtes SQL et ajout de nouvelles tables et colonnes.
+                        </p>
+                    </div>
+                    <div class="progress-bar skills">
+                        <div style="width: 100%; display: flex; flex-direction: row;">
+                            <div class="image">
+                                <img src="img/influxdb.png" alt="" width="50px" style="margin-right:1rem; border-radius: 1rem;">
+                            </div>
+                            <p class="prog-title">InfluxDB</p>
+                        </div>
+                        <p class="small-text" style="color: var(--color-grey-2); text-align: justify;">
+                            Création de requêtes SQL et ajout de nouvelles tables et colonnes dans le contexte d'un chat support - client.
+                        </p>
+                    </div>
+                </div>
+                <h4 class="stat-subtitle"><span style="color: var(--color-secondary)">Outils</span></h4>
+                <div class="progress-bars">
+                    <div class="progress-bar skills">
+                        <div style="width: 100%; display: flex; flex-direction: row;">
+                            <div class="image">
+                                <img src="img/postman.png" alt="" width="50px" style="margin-right:1rem;">
+                            </div>
+                            <p class="prog-title">Postman</p>
+                        </div>
+                        <p class="small-text" style="color: var(--color-grey-2); text-align: justify;">
+                            Debugging des API.
+                        </p>
+                    </div>
+                    <div class="progress-bar skills">
+                        <div style="width: 100%; display: flex; flex-direction: row;">
+                            <div class="image">
+                                <img src="img/navicat.png" alt="" width="50px" style="margin-right:1rem;">
+                            </div>
+                            <p class="prog-title">Navicat Premium</p>
+                        </div>
+                        <p class="small-text" style="color: var(--color-grey-2); text-align: justify;">
+                            Ecriture de divers scripts SQL.
+                        </p>
+                    </div>
+                    <div class="progress-bar skills">
+                        <div style="width: 100%; display: flex; flex-direction: row;">
+                            <div class="image">
+                                <img src="img/gitlab.png" alt="" width="50px" style="margin-right:1rem;">
+                            </div>
+                            <p class="prog-title">Gitlab</p>
+                        </div>
+                        <p class="small-text" style="color: var(--color-grey-2); text-align: justify;">
+                            Stockage du code et utilisation de la CICD.
+                        </p>
+                    </div>
+                    <div class="progress-bar skills">
+                        <div style="width: 100%; display: flex; flex-direction: row;">
+                            <div class="image">
+                                <img src="img/jira.png" alt="" width="50px" style="margin-right:1rem;">
+                            </div>
+                            <p class="prog-title">Jira</p>
+                        </div>
+                        <p class="small-text" style="color: var(--color-grey-2); text-align: justify;">
+                            Gestion de ticket et backlog des sprints.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="container" id="portfolio">
             <div class="main-title">
@@ -223,18 +344,7 @@
                     <div class="hover-items">
                         <h3>BeeOme</h3>
                         <p style="padding: 2vw 2vw 0 2vw;">Application VueJs - Proof Of Concept</p>
-                        <p style="padding: 0 2vw 2vw 2vw;">Une application permettant à un utilisateur de récupérer les données des capteurs dans sa ruche en temps réel.</p>
-                        <!-- <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div> -->
+                        <p style="padding: 0 2vw 2vw 2vw;">Une application permettant à un utilisateur de récupérer les données des capteurs dans sa ruche.</p>
                     </div>
                 </div>
                 <div class="portfolio-item">
@@ -245,17 +355,6 @@
                         <h3 style="margin: 0; padding: 0 2rem;">Weather App</h3>
                         <p style="margin: 0; padding: 0 2rem;">Application VueJs - </p>
                         <p style="margin: 0; padding: 0 2rem;">Une application permettant à un utilisateur de récupérer les données de l'API d'openweathermap en temps réel.</p>
-                        <!-- <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div> -->
                     </div>
                 </div>
                 <div class="portfolio-item">
@@ -265,17 +364,6 @@
                     <div class="hover-items">
                         <h3>Blender (animation)</h3>
                         <p>Starship chase animated</p>
-                        <!-- <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div> -->
                     </div>
                 </div>
                 <div class="portfolio-item">
@@ -285,17 +373,6 @@
                     <div class="hover-items">
                         <h3>Blender</h3>
                         <p>House</p>
-                        <!-- <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div> -->
                     </div>
                 </div>
                 <div class="portfolio-item">
@@ -303,19 +380,8 @@
                         <img src="img/blenderLavaLamp.png" alt="">
                     </div>
                     <div class="hover-items">
-                        <h3>Blender</h3>
+                        <h3>Blender (animation)</h3>
                         <p>Lava Lamp</p>
-                        <!-- <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div> -->
                     </div>
                 </div>
                 <div class="portfolio-item">
@@ -324,17 +390,6 @@
                     </div>
                     <div class="hover-items">
                         <h3>A venir</h3>
-                        <!-- <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div> -->
                     </div>
                 </div>
             </div>
