@@ -279,7 +279,6 @@ section {
 
 .skills {
   padding: 1rem;
-  height: 14rem;
   cursor: default;
   background-color: transparent;
   border: 1px solid var(--color-grey-5);
@@ -368,7 +367,7 @@ section {
 }
 
 .stat-subtitle {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   text-align: center;
   padding: 3.5rem 0;
   position: relative;
