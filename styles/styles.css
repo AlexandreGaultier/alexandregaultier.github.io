@@ -753,13 +753,16 @@ section {
 }
 
 .creation .creation-container .games .card {
-  min-width: 22rem;
   height: 35rem;
+  width: auto;
+  min-width: 24rem;
 }
 
 .creation .creation-container .games .card img {
-  max-width: 30rem;
-  height: 20rem;
+  width: auto;
+  max-width: max-content;
+  height: auto;
+  max-height: 25rem;
 }
 
 /*Independed components*/
